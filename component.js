@@ -1,7 +1,7 @@
 import React from 'react';
-import { View, Text Dimensions } from 'react-native';
+import { View, Text, Dimensions } from 'react-native';
 
-import { Paginator } from 'components';
+import Paginator from './Paginator';
 
 const Component = () => {
   const itemWidth = Dimensions.get('window').width;
