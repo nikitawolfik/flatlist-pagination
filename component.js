@@ -20,7 +20,7 @@ const Component = () => {
         <Paginator
           data={data}
           renderItem={renderItem}
-          keyExtractor={item => item.id.toString()}
+          keyExtractor={item => item.key.toString()}
           itemWidth={itemWidth}
         />
       </View>
