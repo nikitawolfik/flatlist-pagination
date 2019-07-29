@@ -15,7 +15,7 @@ const Component = () => {
   );
 
   return (
-    <View style={styles.container}>
+    <View>
       <View>
         <Paginator
           data={data}
